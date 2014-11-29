@@ -1,0 +1,106 @@
+Width  = 400
+Height = 400
+
+FOV = 30.0
+
+Background = (0.1, 0.4, 0.8)
+Fog_Distance = 500.0
+
+Ambient_Colour = (1.0, 1.0, 1.0)
+
+FocalLength = 100.0
+LensRadius  = 1.0
+
+
+Camera
+ Begin
+  Pos     = (0.0, 100.0, 0.0)
+  Heading = (0.0, -1.0, 0.0)
+  Up      = (0.0, 0.0, 1.0)
+ End
+
+
+Light
+ Begin
+  Pos    = (-8.0, 100.0, 12.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+
+CheckerBoard
+ Begin
+  Plane_Normal = (0.0, 1.0, 0.0)
+  Distance     = 50.0
+  Colour_One   = (1.0, 0.0, 0.0)
+  Colour_Two   = (1.0, 1.0, 0.0)
+  CheckSize    = 2.0
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.5
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+; top left
+Sphere
+ Begin
+  Centre       = (-15.0, 0.0, 15.0)
+  Radius       = 10.0
+  Colour       = (0.1, 0.1, 0.1)
+  DR_Coeff     = 0.3
+  Amb_Coeff    = 0.1
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.9, 0.9, 0.9)
+  Refractive_Index = 1.5
+ End
+
+; bottom left
+Sphere
+ Begin
+  Centre       = (-15.0, 0.0, -15.0)
+  Radius       = 10.0
+  Colour       = (0.1, 0.1, 0.1)
+  DR_Coeff     = 0.3
+  Amb_Coeff    = 0.1
+  SR_Coeff     = 0.7
+  Shininess    = 20
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.8, 0.8, 0.8)
+  Refractive_Index = 2.4
+ End
+
+;top right
+Sphere
+ Begin
+  Centre       = (15.0, 0.0, 15.0)
+  Radius       = 10.0
+  Colour       = (0.1, 0.1, 0.1)
+  DR_Coeff     = 0.3
+  Amb_Coeff    = 0.0
+  SR_Coeff     = 0.0
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.8, 0.8, 0.8)
+  Refractive_Index = 1.0
+ End
+
+
+;bottom right
+Sphere
+ Begin
+  Centre       = (15.0, 0.0, -15.0)
+  Radius       = 10.0
+  Colour       = (0.1, 0.1, 0.1)
+  DR_Coeff     = 0.3
+  Amb_Coeff    = 0.0
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.8, 0.8, 0.8)
+  Refractive_Index = 1.8
+ End
+

@@ -1,0 +1,191 @@
+# Microsoft Developer Studio Generated Dependency File, included by Ray Tracer.mak
+
+.\Colour.cpp : \
+	".\Colour.h"\
+	".\Ray Tracer.h"\
+	
+
+.\FileParser.cpp : \
+	".\Colour.h"\
+	".\FileParser.h"\
+	".\Light.h"\
+	".\LogFile.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Targa.h"\
+	".\Vector.h"\
+	".\World.h"\
+	
+
+.\Light.cpp : \
+	".\Colour.h"\
+	".\Light.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Vector.h"\
+	
+
+.\LogFile.cpp : \
+	".\LogFile.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\Ray Tracer.h"\
+	
+
+.\OGLWindow.cpp : \
+	".\OGLWindow.h"\
+	".\Ray Tracer.h"\
+	
+
+".\Ray Tracer.cpp" : \
+	".\Colour.h"\
+	".\FileParser.h"\
+	".\Light.h"\
+	".\LogFile.h"\
+	".\MainFrm.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracerDoc.h"\
+	".\RayTracerView.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Targa.h"\
+	".\Vector.h"\
+	".\World.h"\
+	
+
+!IF  "$(CFG)" == "Ray Tracer - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Ray Tracer - Win32 Debug"
+
+!ENDIF 
+
+".\Ray Tracer.rc" : \
+	".\res\Ray Tracer.ico"\
+	".\res\Ray Tracer.rc2"\
+	".\res\RayTracerDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\Ray.cpp : \
+	".\Colour.h"\
+	".\Light.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Vector.h"\
+	
+
+.\RayTracerDoc.cpp : \
+	".\Colour.h"\
+	".\FileParser.h"\
+	".\Light.h"\
+	".\LogFile.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracerDoc.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Targa.h"\
+	".\Vector.h"\
+	".\World.h"\
+	
+
+.\RayTracerView.cpp : \
+	".\Colour.h"\
+	".\FileParser.h"\
+	".\Light.h"\
+	".\LogFile.h"\
+	".\OGLWindow.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracerDoc.h"\
+	".\RayTracerView.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Targa.h"\
+	".\Vector.h"\
+	".\World.h"\
+	
+
+.\RenderProgressDlg.cpp : \
+	".\Ray Tracer.h"\
+	".\RenderProgressDlg.h"\
+	
+
+.\SceneObject.cpp : \
+	".\Colour.h"\
+	".\Light.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Vector.h"\
+	
+
+.\Sphere.cpp : \
+	".\Colour.h"\
+	".\Light.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Vector.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Targa.cpp : \
+	".\Targa.h"\
+	
+
+.\Vector.cpp : \
+	".\Ray Tracer.h"\
+	".\Vector.h"\
+	
+
+.\World.cpp : \
+	".\Colour.h"\
+	".\FileParser.h"\
+	".\Light.h"\
+	".\LogFile.h"\
+	".\Ray Tracer.h"\
+	".\Ray.h"\
+	".\RayTracing.h"\
+	".\SceneObject.h"\
+	".\Sphere.h"\
+	".\Targa.h"\
+	".\Vector.h"\
+	".\World.h"\
+	
+
+!IF  "$(CFG)" == "Ray Tracer - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Ray Tracer - Win32 Debug"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Ray Tracer - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Ray Tracer - Win32 Debug"
+
+!ENDIF 
+

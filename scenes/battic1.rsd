@@ -1,0 +1,235 @@
+Width  = 800
+Height = 600
+
+FOV = 30.0
+
+Background = (0.0, 0.0, 0.0)
+Fog_Distance = 500.0
+
+Ambient_Colour = (1.0, 1.0, 1.0)
+
+FocalLength = 100.0
+LensRadius  = 1.0
+
+
+Camera
+ Begin
+  Pos     = (-15, 0.0, -60.0)
+  Heading = (0.25, 0.0, 1.0)
+  Up      = (0.0, 1.0, 0.0)
+ End
+
+Light
+ Begin
+  Pos    = (0.0, 20.0, -100.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+Light
+ Begin
+  Pos    = (0.0, 100.0, -20.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+Light
+ Begin
+  Pos    = (40.0, -20.0, 0.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+;yellow cross cylinder
+Cylinder
+ Begin
+  Centre       = (25.0, -7.5, 30.0)
+  Axis         = (0.0, 0.0, 1.0)
+  Length       = 40.0
+  Radius       = 2.0
+  Colour       = (1.0, 1.0, 0.0)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;lowest cylinder
+Cylinder
+ Begin
+  Centre       = (20.0, -8, 15.0)
+  Axis         = (0.6, 0.0, 0.8)
+  Length       = 45.0
+  Radius       = 2.0
+  Colour       = (0.1, 0.3, 0.9)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+
+
+;centre sphere
+Sphere
+ Begin
+  Centre       = (0.0, 0.0, 0.0)
+  Radius       = 5.0
+  Colour       = (1.0, 1.0, 1.0)
+  DR_Coeff     = 0.25
+  Amb_Coeff    = 0.0
+  SR_Coeff     = 0.5
+  Shininess    = 150
+  Reflection   = (0.8, 0.8, 0.8)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+;little bottom sphere
+Sphere
+ Begin
+  Centre       = (0.0, -6.5, 0.0)
+  Radius       = 1.0
+  Colour       = (0.3, 0.6, 0.9)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+;little top sphere
+Sphere
+ Begin
+  Centre       = (0.0, 6.5, 0.0)
+  Radius       = 1.0
+  Colour       = (0.9, 0.3, 0.6)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;little right sphere
+Sphere
+ Begin
+  Centre       = (6.5, 0.0, 0.0)
+  Radius       = 1.0
+  Colour       = (0.7, 0.9, 0.2)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+;little left sphere
+Sphere
+ Begin
+  Centre       = (-6.5, 0.0, 0.0)
+  Radius       = 1.0
+  Colour       = (0.8, 0.8, 0.8)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+;big high up cylinder
+Cylinder
+ Begin
+  Centre       = (8.0, 8.0, 10.0)
+  Axis         = (0.0, -0.5, 1.0)
+  Length       = 15.0
+  Radius       = 2.0
+  Colour       = (1.0, 0.2, 0.2)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;big spher on left
+Sphere
+ Begin
+  Centre       = (-10.0, 10.0, 40.0)
+  Radius       = 10.0
+  Colour       = (0.9, 0.3, 0.9)
+  DR_Coeff     = 0.95
+  Amb_Coeff    = 0.05
+  SR_Coeff     = 0.6
+  Shininess    = 3
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+Infinite_Plane
+ Begin
+  Plane_Normal = (0.0, 1.0, 0.0)
+  Distance     = 9.0
+  Colour       = (0.4, 0.6, 0.2)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.4, 0.6, 0.2)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;big sphere on right
+Sphere
+ Begin
+  Centre       = (40.0, 20.0, 60.0)
+  Radius       = 10.0
+  Colour       = (1.0, 0.0, 0.0)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;medium sphere bottom left
+Sphere
+ Begin
+  Centre       = (-8.0, -3.0, -10.0)
+  Radius       = 2.0
+  Colour       = (0.0, 0.0, 0.0)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (1.0, 1.0, 1.0)
+  Refractive_Index = 1.5
+ End
+
+
+
+

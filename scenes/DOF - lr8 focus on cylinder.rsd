@@ -1,0 +1,116 @@
+Width  = 400
+Height = 400
+
+FOV = 30.0
+
+Background = (0.0, 0.0, 0.0)
+Fog_Distance = 500.0
+
+Ambient_Colour = (1.0, 1.0, 1.0)
+
+FocalLength = 145.0
+LensRadius  = 8
+
+
+Camera
+ Begin
+  Pos     = (0.0, 0.0, -100.0)
+  Heading = (0.0, 0.0, 1.0)
+  Up      = (0.0, 1.0, 0.0)
+ End
+
+
+Light
+ Begin
+  Pos    = (0.0, 20.0, -100.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+Light
+ Begin
+  Pos    = (100.0, 60.0, 20.0)
+  Colour = (1.0, 1.0, 1.0)
+ End
+
+
+;big blue sphere, bottom left
+Sphere
+ Begin
+  Centre       = (-50.0, -100.0, 20.0)
+  Radius       = 100.0
+  Colour       = (0.1, 0.3, 0.9)
+  DR_Coeff     = 0.7
+  Amb_Coeff    = 0.3
+  SR_Coeff     = 0.6
+  Shininess    = 50
+  Reflection   = (0.1, 0.3, 0.9)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+; the only cylinder
+Cylinder
+ Begin
+  Centre       = (-15.0, 8.0, 45.0)
+  Axis         = (-0.3, 1.0, 0.2)
+  Length       = 30.0
+  Radius       = 5.0
+  Colour       = (0.9, 0.9, 0.1)
+  DR_Coeff     = 0.7
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.6
+  Shininess    = 10
+  Reflection   = (0.8, 0.8, 0.1)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;purpley sphere top left
+Sphere
+ Begin
+  Centre       = (-21.0, 26.0, 60.0)
+  Radius       = 10.0
+  Colour       = (1.0, 0.3, 0.8)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.9, 0.3, 0.8)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+; greeney blue sphere top right back
+Sphere
+ Begin
+  Centre       = (15.0, 15.0, 75.0)
+  Radius       = 10.0
+  Colour       = (0.4, 0.7, 0.6)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.7
+  Shininess    = 10
+  Reflection   = (0.7, 0.4, 0.6)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+;red sphere bottom right
+Sphere
+ Begin
+  Centre       = (15.0, -5.0, 10.0)
+  Radius       = 10.0
+  Colour       = (0.9, 0.2, 0.2)
+  DR_Coeff     = 0.8
+  Amb_Coeff    = 0.2
+  SR_Coeff     = 0.6
+  Shininess    = 4
+  Reflection   = (0.0, 0.0, 0.0)
+  Transparency = (0.0, 0.0, 0.0)
+  Refractive_Index = 1.0
+ End
+
+
+

@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ipch/raytracer-6cdd879
+/src/Win32
+/src/x64
+*.opensdf
+*.sdf
